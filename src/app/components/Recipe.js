@@ -7,25 +7,25 @@ export default function RecipeContainer({ recipes, onClick }) {
   return (
     <>
       {recipes.map((el) => (
-        <div key={el.id} className="bg-white p-1 rounded-lg h-[650px] relative">
-          <div className="h-[400px]">
+        <div key={el.id} className="bg-white p-1 rounded-lg h-[550px] md:h-[650px] relative">
+          <div className="md:h-[400px] h-[350px]">
             <img className="w-full rounded-lg h-full" src={el.image.large} />
           </div>
           <div className="p-2 flex flex-col gap-y-4">
             <h3>{el.title}</h3>
             <p>{el.overview}</p>
             <div className="flex gap-2">
-              <span className="flex">
-                <img src="/assets/images/icon-servings.svg" /> Serving:{" "}
-                {el.servings}
+               <span className="flex">
+                <img src="/assets/images/icon-servings.svg" alt="" />
+                <span className="text-sm">Serving: {el.servings}</span>
               </span>
               <span className="flex">
-                <img src="/assets/images/icon-prep-time.svg" />
-                Prep: {el.prepMinutes} mins
+                <img src="/assets/images/icon-prep-time.svg" alt="" />
+                <span className="text-sm">Prep: {el.prepMinutes} mins</span>
               </span>
               <span className="flex">
-                <img src="/assets/images/icon-cook-time.svg" />
-                Cook: {el.cookMinutes} mins
+                <img src="/assets/images/icon-cook-time.svg" alt="" />
+                <span className="text-sm">Cook: {el.cookMinutes} mins</span>
               </span>
             </div>
           </div>

@@ -24,7 +24,7 @@
 }
 
 body {
-  color: var(--foreground);
+  color: black;
   background: var(--neutral-100);
   font-family: "Nunito_sans" Arial, Helvetica, sans-serif;
 }

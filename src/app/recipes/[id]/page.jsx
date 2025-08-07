@@ -1,8 +1,8 @@
 "use client";
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import data from "../../../../db/data.json";
 import "../../globals.css";
-import { useParams, usePathname } from "next/navigation";
+import { useParams } from "next/navigation";
 import Link from "next/link";
 import RecipeContainer from "@/app/components/Recipe";
 import { takeRandom } from "@/app/utils/util";
@@ -32,16 +32,16 @@ export default function page() {
             <p>{r.overview}</p>
             <div className="flex gap-6">
               <span className="flex">
-                <img src="/assets/images/icon-servings.svg" alt="" /> Serving:{" "}
-                {r.servings}
+                <img src="/assets/images/icon-servings.svg" alt="" />
+                <span className="text-sm">Serving: {r.servings}</span>
               </span>
               <span className="flex">
                 <img src="/assets/images/icon-prep-time.svg" alt="" />
-                Prep: {r.prepMinutes} mins
+                <span className="text-sm">Prep: {r.prepMinutes} mins</span>
               </span>
               <span className="flex">
                 <img src="/assets/images/icon-cook-time.svg" alt="" />
-                Cook: {r.cookMinutes} mins
+                <span className="text-sm">Cook: {r.cookMinutes} mins</span>
               </span>
             </div>
             <div>
