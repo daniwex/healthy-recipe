@@ -28,10 +28,12 @@ export default function Home() {
           <img
             className="absolute my-img w-[4000px] md:h-[1000px]"
             src="/assets/images/pattern-squiggle-1.svg"
+            alt=""
           />
           <img
             className="mx-5 md:mx-0 border-w rounded-xl h-[150px] md:h-[600px]"
             src="/assets/images/image-home-hero-large.webp"
+            alt=""
           />
         </div>
       </div>
@@ -44,21 +46,21 @@ export default function Home() {
         <div className="flex relative pb-20 underline-c flex-col gap-y-10 md:gap-y-0 md:flex-row pt-10 w-full md:justify-evenly md:pt-20 md:gap-x-10">
           <div className="flex flex-col gap-y-4">
             <div className="py-2 px-3 rounded-lg border bg-white w-1/6">
-              <img src="/assets/images/icon-whole-food-recipes.svg" />
+              <img src="/assets/images/icon-whole-food-recipes.svg" alt="" />
             </div>
             <h3>Whole-food recipes</h3>
             <span>Each dish uses everyday, unprocesses ingredients</span>
           </div>
           <div className="flex flex-col gap-y-4">
             <div className="py-2 px-3 rounded-lg border bg-white w-1/6">
-              <img src="/assets/images/icon-minimum-fuss.svg" />
+              <img src="/assets/images/icon-minimum-fuss.svg" alt="" />
             </div>
             <h3>Minimum fuss</h3>
             <span>Each dish uses everyday, unprocesses ingredients</span>
           </div>
           <div className="flex flex-col gap-y-4">
             <div className="py-2 px-3 rounded-lg border bg-white w-1/6">
-              <img src="/assets/images/icon-search-in-seconds.svg" />
+              <img src="/assets/images/icon-search-in-seconds.svg" alt="" />
             </div>
             <h3>Search in seconds</h3>
             <span>Each dish uses everyday, unprocesses ingredients</span>
@@ -84,6 +86,7 @@ export default function Home() {
             <img
               className="rounded-lg"
               src="/assets/images/image-home-real-life-small.webp"
+              alt=""
             />
           </div>
         </div>

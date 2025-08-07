@@ -24,7 +24,7 @@ export default function Nav() {
             </Link>
         </div> 
         <div className="flex md:hidden">
-            <img src="/assets/images/icon-hamburger-menu.svg" />
+            <img src="/assets/images/icon-hamburger-menu.svg" alt=""/>
         </div>
     </nav>
   );

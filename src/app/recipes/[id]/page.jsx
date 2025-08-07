@@ -25,22 +25,22 @@ export default function page() {
         </div>
         <div className="md:flex gap-x-7 relative underline-c pb-[100px]">
           <div>
-            <img className="rounded-lg" src={r.image.large} />
+            <img className="rounded-lg" src={r.image.large} alt="" />
           </div>
           <div className="pt-3 flex flex-col gap-y-5">
             <h1>{r.title}</h1>
             <p>{r.overview}</p>
             <div className="flex gap-6">
               <span className="flex">
-                <img src="/assets/images/icon-servings.svg" /> Serving:{" "}
+                <img src="/assets/images/icon-servings.svg" alt="" /> Serving:{" "}
                 {r.servings}
               </span>
               <span className="flex">
-                <img src="/assets/images/icon-prep-time.svg" />
+                <img src="/assets/images/icon-prep-time.svg" alt="" />
                 Prep: {r.prepMinutes} mins
               </span>
               <span className="flex">
-                <img src="/assets/images/icon-cook-time.svg" />
+                <img src="/assets/images/icon-cook-time.svg" alt="" />
                 Cook: {r.cookMinutes} mins
               </span>
             </div>
@@ -51,6 +51,7 @@ export default function page() {
                   <img
                     className=""
                     src="/assets/images/icon-bullet-point.svg"
+                    alt=""
                   />
                   {el}
                 </div>
@@ -63,6 +64,7 @@ export default function page() {
                   <img
                     className=""
                     src="/assets/images/icon-bullet-point.svg"
+                    alt=""
                   />
                   {el}
                 </div>

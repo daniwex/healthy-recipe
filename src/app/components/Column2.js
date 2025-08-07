@@ -10,7 +10,7 @@ export default function Column2({ column_text_1, column_body_2 }) {
         {column_body_2.map((el) => (
           <div key={el.id} className="flex gap-x-2 md:gap-x-7">
             <div className="flex md:w-fit items-start">
-              <img className="" src="/assets/images/icon-bullet-point.svg" />
+              <img className="" src="/assets/images/icon-bullet-point.svg" alt="" />
             </div>
             <div className="flex w-fit flex-col gap-y-4 md:w-4/6">
               <h3>{el.header}</h3>

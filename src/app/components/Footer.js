@@ -10,8 +10,8 @@ export default function Footer() {
       <footer className="section">
            {!router.includes("/recipes") ? 
         <div className="md:mx-20 rounded-lg overflow-hidden bg-neutral-300x h-[350px] flex flex-col items-center justify-center relative gap-y-5 px-5 md:px-0">
-          <img className="fork" src="/assets/images/pattern-fork.svg" />
-          <img className="knife" src="/assets/images/pattern-knife.svg" />
+          <img className="fork" src="/assets/images/pattern-fork.svg" alt="" />
+          <img className="knife" src="/assets/images/pattern-knife.svg" alt=" " />
           <h2>Ready to cook smarter?</h2>
           <p>
             Hit the button, pick a recipe, and get dinner on the table
@@ -29,13 +29,13 @@ export default function Footer() {
           <p>Made with ❤️ and 🏂</p>
           <div className="flex gap-x-4">
             <a href="" target="_blank">
-              <img src="/assets/images/icon-instagram.svg" />
+              <img src="/assets/images/icon-instagram.svg" alt="" />
             </a>
             <a href="" target="_blank">
-              <img src="/assets/images/icon-bluesky.svg" />
+              <img src="/assets/images/icon-bluesky.svg" alt="" />
             </a>
             <a href="" target="_blank">
-              <img src="/assets/images/icon-tiktok.svg" />
+              <img src="/assets/images/icon-tiktok.svg"  alt=""/>
             </a>
           </div>
         </div>

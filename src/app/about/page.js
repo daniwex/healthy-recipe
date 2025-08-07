@@ -59,6 +59,7 @@ export default function page() {
             <img
               className="rounded-lg"
               src="/assets/images/image-about-our-mission-small.webp"
+              alt=""
             />
           </div>
         </div>
@@ -86,6 +87,7 @@ export default function page() {
             <img
               className="rounded-lg"
               src="/assets/images/image-about-beyond-the-plate-small.webp"
+              alt=""
             />
           </div>
         </div>
