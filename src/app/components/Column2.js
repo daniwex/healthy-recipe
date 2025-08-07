@@ -8,7 +8,7 @@ export default function Column2({ column_text_1, column_body_2 }) {
       </div>
       <div className="flex flex-col gap-y-10">
         {column_body_2.map((el) => (
-          <div className="flex gap-x-2 md:gap-x-7">
+          <div key={el.id} className="flex gap-x-2 md:gap-x-7">
             <div className="flex md:w-fit items-start">
               <img className="" src="/assets/images/icon-bullet-point.svg" />
             </div>
