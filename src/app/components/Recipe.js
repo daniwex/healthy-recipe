@@ -7,7 +7,7 @@ export default function RecipeContainer({ recipes, onClick }) {
   return (
     <>
       {recipes.map((el) => (
-        <div key={el.id} className="bg-white p-1 rounded-lg h-[590px] md:h-[650px] relative">
+        <div key={el.id} className="bg-white p-1 rounded-lg h-[650px] relative">
           <div className="md:h-[400px] h-[350px]">
             <img className="w-full rounded-lg h-full" src={el.image.large} />
           </div>
