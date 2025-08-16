@@ -52,7 +52,7 @@ export default function Nav() {
             onClick={() => setOpenMenu(() => !openMenu)}
           />
           {openMenu ? (
-            <div className="absolute left-0 top-10 px-5 w-full z-10">
+            <div className="absolute left-0 top-14 px-5 w-full z-10">
               <div className="bg-white p-3">
                 <ul className="md:hidden gap-5 justify-center flex flex-col  md:w-1/3">
                   <Link onClick={() => setOpenMenu(false)} href="/">
